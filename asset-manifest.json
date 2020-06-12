@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/aviator/static/css/main.d36683e5.chunk.css",
+    "main.js": "/aviator/static/js/main.9a00b24a.chunk.js",
+    "main.js.map": "/aviator/static/js/main.9a00b24a.chunk.js.map",
+    "runtime-main.js": "/aviator/static/js/runtime-main.450af741.js",
+    "runtime-main.js.map": "/aviator/static/js/runtime-main.450af741.js.map",
+    "static/js/2.6c01ada0.chunk.js": "/aviator/static/js/2.6c01ada0.chunk.js",
+    "static/js/2.6c01ada0.chunk.js.map": "/aviator/static/js/2.6c01ada0.chunk.js.map",
+    "index.html": "/aviator/index.html",
+    "precache-manifest.f55d90b3759ae1eee03d3b16fd576186.js": "/aviator/precache-manifest.f55d90b3759ae1eee03d3b16fd576186.js",
+    "service-worker.js": "/aviator/service-worker.js",
+    "static/css/main.d36683e5.chunk.css.map": "/aviator/static/css/main.d36683e5.chunk.css.map",
+    "static/js/2.6c01ada0.chunk.js.LICENSE.txt": "/aviator/static/js/2.6c01ada0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.450af741.js",
+    "static/js/2.6c01ada0.chunk.js",
+    "static/css/main.d36683e5.chunk.css",
+    "static/js/main.9a00b24a.chunk.js"
+  ]
+}
