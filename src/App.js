@@ -1,9 +1,8 @@
-import ReactDOM from 'react-dom'
 import React, { useRef, useState } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
 import './App.css';
 
-function App(props) {
+function Cube(props) {
   // This reference will give us direct access to the mesh
   const mesh = useRef()
 
@@ -25,6 +24,17 @@ function App(props) {
       <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
       <meshStandardMaterial attach="material" color={hovered ? 'hotpink' : 'orange'} />
     </mesh>
+  );
+}
+
+function App() {
+  return(
+    <Canvas colorManagement>
+      <ambientLight />
+      <pointLight position={[10, 10, 10]} />
+      <Cube position={[-1.2, 0, 0]} />
+      <Cube position={[1.2, 0, 0]} />
+    </Canvas>
   );
 }
 
